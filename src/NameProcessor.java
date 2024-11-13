@@ -40,9 +40,9 @@ public class NameProcessor {
                    Integer.parseInt(birthDataArray[0]));
 
            //Считаем возраст
-           ageInYears = Period.between(birthDate, LocalDate.now()).getYears();
-           ageInMonths = Period.between(birthDate, LocalDate.now()).getMonths();
-           ageInDays = Period.between(birthDate, LocalDate.now()).getDays();
+            ageInYears = Period.between(birthDate, LocalDate.now()).getYears();
+            ageInMonths = Period.between(birthDate, LocalDate.now()).getMonths();
+            ageInDays = Period.between(birthDate, LocalDate.now()).getDays();
         } catch (NumberFormatException e) {
             System.out.println("Вы неверно ввели данные о рождении!");
             return;
