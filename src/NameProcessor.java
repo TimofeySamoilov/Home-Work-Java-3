@@ -39,7 +39,7 @@ public class NameProcessor {
            birthDate = LocalDate.of(Integer.parseInt(birthDataArray[2]), Integer.parseInt(birthDataArray[1]),
                    Integer.parseInt(birthDataArray[0]));
 
-           //Считаем возраст
+            //Считаем возраст
             ageInYears = Period.between(birthDate, LocalDate.now()).getYears();
             ageInMonths = Period.between(birthDate, LocalDate.now()).getMonths();
             ageInDays = Period.between(birthDate, LocalDate.now()).getDays();
