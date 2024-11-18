@@ -61,10 +61,10 @@ public class NameProcessor {
         //Определение пола
 
         System.out.print("Пол: ");
-        if (patronymic.endsWith("вич")) {
+        if (patronymic.endsWith("ич")) {
             System.out.println("Мужской");
         }
-        else if (patronymic.endsWith("вна")) {
+        else if (patronymic.endsWith("на")) {
             System.out.println("Женский");
         }
         else {
